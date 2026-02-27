@@ -1,0 +1,5 @@
+{
+  "name": "Aegis Employee Experience",
+  "description": "Personalized employee experience app for a Fortune 100 financial services company.",
+  "requestFramePermissions": ["camera", "geolocation"]
+}
