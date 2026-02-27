@@ -72,7 +72,7 @@ export default function HomeScreen({
         <div className="flex justify-between gap-4">
           <QuickAction
             icon={<Wifi />}
-            label="1-Click WiFi"
+            label="WiFi Access"
             color="bg-blue-100 text-blue-600"
           />
           <QuickAction
@@ -95,8 +95,8 @@ export default function HomeScreen({
         <Section title="Explore Campus">
           <div className="grid grid-cols-2 gap-4">
             <Card
-              title="Food & Dining"
-              subtitle="Order ahead"
+              title="What's for Lunch?"
+              subtitle="Menu & Ordering"
               icon={<Coffee size={24} />}
               bg="bg-white"
               onClick={() => onNavigate("food")}
@@ -132,7 +132,7 @@ export default function HomeScreen({
               </div>
             )}
           </div>
-          <button 
+          <button
             onClick={() => onNavigate('add-resource')}
             className="w-full mt-3 py-3 border-2 border-dashed border-gray-200 rounded-xl text-sm font-semibold text-gray-500 hover:bg-gray-50 hover:text-brand-primary hover:border-brand-primary/30 transition-colors flex items-center justify-center gap-2"
           >

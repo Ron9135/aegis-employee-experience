@@ -7,4 +7,8 @@ export const ALL_RESOURCES = [
   { id: 'jira', title: 'Jira', subtitle: 'Project management', icon: 'J' },
   { id: 'learning', title: 'Aegis Learning', subtitle: 'Training & courses', icon: 'L' },
   { id: 'wellness', title: 'Wellness Program', subtitle: 'Mental health, fitness', icon: '♥' },
+  { id: 'directory', title: 'Company Directory', subtitle: 'Find colleagues', icon: '👤' },
+  { id: 'newsfeed', title: 'Newsfeed', subtitle: 'Company updates', icon: '📰' },
+  { id: 'recognition', title: 'Recognition', subtitle: 'Shoutouts & awards', icon: '🏆' },
+  { id: 'jobs', title: 'Internal Job Board', subtitle: 'Career opportunities', icon: '💼' },
 ];
